@@ -31,9 +31,12 @@ body{
 .screen.active{
   display: block;
 }
+.screen.active h1{
+    color: #1E1B4B;
+}
 
 /* START-SCREEN */
-#start-screen h1{
+#quiz-screen h2{
    color: #1E1B4B;
    margin-bottom: 20px;
    font-size: 2.5rem;
