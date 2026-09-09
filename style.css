@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #F5F3FF;
+    background: url(assets/image/background.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,7 +13,14 @@ body{
     font-family: sans-serif;
 }
 .container{
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
+    background: linear-gradient(
+        135deg,
+        #4b0082,
+        #5f2eea,
+        #007bff
+    );
+
     border-radius: 1rem;
     box-shadow: 0 10px 30px rgb(0,0,0,0.2);
     width: 100%;
@@ -32,17 +39,17 @@ body{
   display: block;
 }
 .screen.active h1{
-    color: #1E1B4B;
+    color: white;
 }
 
 /* START-SCREEN */
 #quiz-screen h2{
-   color: #1E1B4B;
+   color: white;
    margin-bottom: 20px;
    font-size: 2.5rem;
 }
 #start-screen p{
-   color: #1E1B4B;
+   color: white;
    margin-bottom: 30px;
    font-size: 1.1rem;
 }
@@ -58,7 +65,7 @@ body{
 .quiz-info{
     display: flex;
     justify-content: space-between;
-    color: #666;
+    color: white;
     margin-bottom: 10px;
 }
 .answers-container{
@@ -107,24 +114,29 @@ body{
 
 /* RESULT SCREEN  */
 #result-screen h1{
-    color: #1E1B4B;
+    color: white;
     margin-bottom: 30px;
 }
 .result-info{
-    background-color: #f8f0e5;
+      background: linear-gradient(
+        135deg,
+        #4b0082,
+        #5f2eea,
+        #007bff
+    );
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 30px;
 }
 .result-info p{
     font-size: 1.2rem;
-    color: #333;
+    color: white;
     margin-bottom: 1rem;
 }
 #result-message{
     font-size: 1.5rem;
     font-weight: 600;
-    color: #1E1B4B;
+    color: white;
 }
 button{
     background-color: #1E1B4B;
